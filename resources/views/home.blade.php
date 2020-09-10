@@ -1,0 +1,12 @@
+@extends('layouts.app')
+@section('content')
+   @include('components.headerComponent')
+   @include('components.addPostComponent')
+   @include('components.categoryComponent')
+   @include('components.bannerComponent')
+   @include('components.recentPostComponent')
+@endsection
+@push('css')
+@endpush
+@push('js')
+@endpush
